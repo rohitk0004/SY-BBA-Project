@@ -1,5 +1,9 @@
 body{
-    text-transform: capitalize;          
+    text-transform: capitalize;  
+    
+background-image:url(../image/tree.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }
 .main{
     display: flex;
@@ -19,8 +23,9 @@ padding-left: 10px;
 padding-bottom: 10px;
 }
 .login_from input{
-width: 400px;
+width: 399px;
  padding-bottom: 15px;
+ margin-left: 1px;
 }
 .container h1{
     background-color: aqua;
@@ -36,4 +41,8 @@ border: 2px solid black;
 }
 #button:active{
     background-color:aqua;
+}
+.anchor{
+    text-align: center;
+    margin-top: 20px;
 }
